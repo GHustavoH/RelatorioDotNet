@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Módulo de PEDIDOS (domínio + aplicação).
+    Regra: sem PackageReference, sem FrameworkReference e sem ProjectReference.
+    Validado por Hub.Tests/ArchitectureTests.
+  -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,25 @@
+@Relatorio004_HostAddress = http://localhost:5120
+
+### criar um pedido (429 se a fila estiver cheia)
+POST {{Relatorio004_HostAddress}}/pedidos
+Content-Type: application/json
+
+{ "cliente": "Maria", "valor": 50 }
+
+### criar pedido esperando vaga (Wait)
+POST {{Relatorio004_HostAddress}}/pedidos/aguardar
+Content-Type: application/json
+
+{ "cliente": "Joao", "valor": 30 }
+
+### pedido invalido (gera falha no consumidor)
+POST {{Relatorio004_HostAddress}}/pedidos
+Content-Type: application/json
+
+{ "cliente": "Erro", "valor": 0 }
+
+### carga acima da capacidade: 100 pedidos, 1 a cada 20ms
+POST {{Relatorio004_HostAddress}}/pedidos/carga?quantidade=100&intervaloMs=20
+
+### metricas
+GET {{Relatorio004_HostAddress}}/pedidos/metricas

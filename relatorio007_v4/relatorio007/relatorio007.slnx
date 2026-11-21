@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="relatorio007/relatorio007.csproj" />
+  <Project Path="relatorio007.Tests/relatorio007.Tests.csproj" />
+</Solution>

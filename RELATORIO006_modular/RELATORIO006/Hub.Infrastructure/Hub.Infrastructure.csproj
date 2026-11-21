@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Infraestrutura: implementações das portas dos módulos e extensões de DI por módulo.
+    É o único projeto que enxerga todos os módulos.
+  -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hub.Orders\Hub.Orders.csproj" />
+    <ProjectReference Include="..\Hub.Processing\Hub.Processing.csproj" />
+    <ProjectReference Include="..\Hub.Notifications\Hub.Notifications.csproj" />
+  </ItemGroup>
+
+</Project>

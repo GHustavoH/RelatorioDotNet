@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="3fcc3162-4c5d-49be-9862-d3b4b485c0a7" name="gustavo@DESKTOP-H9K7SVR 2026-11-17 20:21:04" runUser="DESKTOP-H9K7SVR\gustavo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-17T20:21:04.1306590-03:00" queuing="2026-11-17T20:21:04.1306593-03:00" start="2026-11-17T20:21:03.1731386-03:00" finish="2026-11-17T20:21:04.1388932-03:00" />
+  <TestSettings name="default" id="d0deca06-b0c6-4736-8992-678eab8ee6c1">
+    <Deployment runDeploymentRoot="gustavo_DESKTOP-H9K7SVR_2026-11-17_20_21_04" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="fdfeacca-dfcb-485a-b0b1-8a003c3afce3" testId="38879b56-b090-a18a-db97-38cb021229bf" testName="HubPedidos.Tests.ImportacaoTests.Assincrono_SucessoDevolveBufferUmaVez" computerName="DESKTOP-H9K7SVR" duration="00:00:00.0180712" startTime="2026-11-17T20:21:03.9360824-03:00" endTime="2026-11-17T20:21:03.9623553-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fdfeacca-dfcb-485a-b0b1-8a003c3afce3" />
+    <UnitTestResult executionId="b893f8da-15ea-4d4a-ab74-abef55335e14" testId="e195613b-1408-4e0b-a099-080c928a0cdc" testName="HubPedidos.Tests.ImportacaoTests.Assincrono_CancelamentoDuranteALeitura_DevolveBuffer" computerName="DESKTOP-H9K7SVR" duration="00:00:00.0032812" startTime="2026-11-17T20:21:03.9803798-03:00" endTime="2026-11-17T20:21:03.9827193-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b893f8da-15ea-4d4a-ab74-abef55335e14" />
+    <UnitTestResult executionId="b680b3ad-529e-44bc-92b5-aafda0e6ec0b" testId="0902e83b-edf5-7bfe-b8a0-7ba3e86afe11" testName="HubPedidos.Tests.ImportacaoTests.Assincrono_FalhaNoLog_DevolveBuffer" computerName="DESKTOP-H9K7SVR" duration="00:00:00.0020124" startTime="2026-11-17T20:21:03.9829342-03:00" endTime="2026-11-17T20:21:03.9848012-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b680b3ad-529e-44bc-92b5-aafda0e6ec0b" />
+    <UnitTestResult executionId="2a247269-510b-4462-8d75-cad05b45082a" testId="98e404a7-90d0-6e94-fb26-2c14324a3740" testName="HubPedidos.Tests.ImportacaoTests.Assincrono_NaoUsaBufferDepoisDeDevolver" computerName="DESKTOP-H9K7SVR" duration="00:00:00.0164082" startTime="2026-11-17T20:21:03.9747229-03:00" endTime="2026-11-17T20:21:03.9794008-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a247269-510b-4462-8d75-cad05b45082a" />
+    <UnitTestResult executionId="de4d3ba1-acc4-4cf4-802e-807d597d2610" testId="0e1a7595-e189-a13e-26b6-40cab1d71e46" testName="HubPedidos.Tests.ImportacaoTests.Assincrono_CancelamentoAntesDeComecar_DevolveBuffer" computerName="DESKTOP-H9K7SVR" duration="00:00:00.0008354" startTime="2026-11-17T20:21:03.9849945-03:00" endTime="2026-11-17T20:21:03.9856954-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de4d3ba1-acc4-4cf4-802e-807d597d2610" />
+    <UnitTestResult executionId="e0c60dc8-d982-4368-bc96-aca41259b44b" testId="d7e41a66-8789-87c3-c1ab-6452dececeda" testName="HubPedidos.Tests.ImportacaoTests.Assincrono_LinhaMaiorQueBuffer_LancaInvalidDataException_EDevolveBuffer" computerName="DESKTOP-H9K7SVR" duration="00:00:00.0007236" startTime="2026-11-17T20:21:03.9858984-03:00" endTime="2026-11-17T20:21:03.9864667-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0c60dc8-d982-4368-bc96-aca41259b44b" />
+    <UnitTestResult executionId="69f82e89-5412-472a-bd57-fcea182da80a" testId="02e05209-2741-664b-cf4c-601063ade497" testName="HubPedidos.Tests.ImportacaoTests.Assincrono_LimiteTotal_Excedido_LancaInvalidDataException_EDevolveBuffer" computerName="DESKTOP-H9K7SVR" duration="00:00:00.0008273" startTime="2026-11-17T20:21:03.9866487-03:00" endTime="2026-11-17T20:21:03.9873419-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69f82e89-5412-472a-bd57-fcea182da80a" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="HubPedidos.Tests.ImportacaoTests.Assincrono_CancelamentoAntesDeComecar_DevolveBuffer" storage="c:\users\gustavo\downloads\relatoriodotnet02\relatoriodotnet02\relatoriodotnet\tests\bin\debug\net10.0\hubpedidos.tests.dll" id="0e1a7595-e189-a13e-26b6-40cab1d71e46">
+      <Execution id="de4d3ba1-acc4-4cf4-802e-807d597d2610" />
+      <TestMethod codeBase="C:\Users\gustavo\Downloads\RelatorioDotNet02\RelatorioDotNet02\RelatorioDotNet\Tests\bin\Debug\net10.0\HubPedidos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HubPedidos.Tests.ImportacaoTests" name="Assincrono_CancelamentoAntesDeComecar_DevolveBuffer" />
+    </UnitTest>
+    <UnitTest name="HubPedidos.Tests.ImportacaoTests.Assincrono_LinhaMaiorQueBuffer_LancaInvalidDataException_EDevolveBuffer" storage="c:\users\gustavo\downloads\relatoriodotnet02\relatoriodotnet02\relatoriodotnet\tests\bin\debug\net10.0\hubpedidos.tests.dll" id="d7e41a66-8789-87c3-c1ab-6452dececeda">
+      <Execution id="e0c60dc8-d982-4368-bc96-aca41259b44b" />
+      <TestMethod codeBase="C:\Users\gustavo\Downloads\RelatorioDotNet02\RelatorioDotNet02\RelatorioDotNet\Tests\bin\Debug\net10.0\HubPedidos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HubPedidos.Tests.ImportacaoTests" name="Assincrono_LinhaMaiorQueBuffer_LancaInvalidDataException_EDevolveBuffer" />
+    </UnitTest>
+    <UnitTest name="HubPedidos.Tests.ImportacaoTests.Assincrono_CancelamentoDuranteALeitura_DevolveBuffer" storage="c:\users\gustavo\downloads\relatoriodotnet02\relatoriodotnet02\relatoriodotnet\tests\bin\debug\net10.0\hubpedidos.tests.dll" id="e195613b-1408-4e0b-a099-080c928a0cdc">
+      <Execution id="b893f8da-15ea-4d4a-ab74-abef55335e14" />
+      <TestMethod codeBase="C:\Users\gustavo\Downloads\RelatorioDotNet02\RelatorioDotNet02\RelatorioDotNet\Tests\bin\Debug\net10.0\HubPedidos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HubPedidos.Tests.ImportacaoTests" name="Assincrono_CancelamentoDuranteALeitura_DevolveBuffer" />
+    </UnitTest>
+    <UnitTest name="HubPedidos.Tests.ImportacaoTests.Assincrono_SucessoDevolveBufferUmaVez" storage="c:\users\gustavo\downloads\relatoriodotnet02\relatoriodotnet02\relatoriodotnet\tests\bin\debug\net10.0\hubpedidos.tests.dll" id="38879b56-b090-a18a-db97-38cb021229bf">
+      <Execution id="fdfeacca-dfcb-485a-b0b1-8a003c3afce3" />
+      <TestMethod codeBase="C:\Users\gustavo\Downloads\RelatorioDotNet02\RelatorioDotNet02\RelatorioDotNet\Tests\bin\Debug\net10.0\HubPedidos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HubPedidos.Tests.ImportacaoTests" name="Assincrono_SucessoDevolveBufferUmaVez" />
+    </UnitTest>
+    <UnitTest name="HubPedidos.Tests.ImportacaoTests.Assincrono_FalhaNoLog_DevolveBuffer" storage="c:\users\gustavo\downloads\relatoriodotnet02\relatoriodotnet02\relatoriodotnet\tests\bin\debug\net10.0\hubpedidos.tests.dll" id="0902e83b-edf5-7bfe-b8a0-7ba3e86afe11">
+      <Execution id="b680b3ad-529e-44bc-92b5-aafda0e6ec0b" />
+      <TestMethod codeBase="C:\Users\gustavo\Downloads\RelatorioDotNet02\RelatorioDotNet02\RelatorioDotNet\Tests\bin\Debug\net10.0\HubPedidos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HubPedidos.Tests.ImportacaoTests" name="Assincrono_FalhaNoLog_DevolveBuffer" />
+    </UnitTest>
+    <UnitTest name="HubPedidos.Tests.ImportacaoTests.Assincrono_NaoUsaBufferDepoisDeDevolver" storage="c:\users\gustavo\downloads\relatoriodotnet02\relatoriodotnet02\relatoriodotnet\tests\bin\debug\net10.0\hubpedidos.tests.dll" id="98e404a7-90d0-6e94-fb26-2c14324a3740">
+      <Execution id="2a247269-510b-4462-8d75-cad05b45082a" />
+      <TestMethod codeBase="C:\Users\gustavo\Downloads\RelatorioDotNet02\RelatorioDotNet02\RelatorioDotNet\Tests\bin\Debug\net10.0\HubPedidos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HubPedidos.Tests.ImportacaoTests" name="Assincrono_NaoUsaBufferDepoisDeDevolver" />
+    </UnitTest>
+    <UnitTest name="HubPedidos.Tests.ImportacaoTests.Assincrono_LimiteTotal_Excedido_LancaInvalidDataException_EDevolveBuffer" storage="c:\users\gustavo\downloads\relatoriodotnet02\relatoriodotnet02\relatoriodotnet\tests\bin\debug\net10.0\hubpedidos.tests.dll" id="02e05209-2741-664b-cf4c-601063ade497">
+      <Execution id="69f82e89-5412-472a-bd57-fcea182da80a" />
+      <TestMethod codeBase="C:\Users\gustavo\Downloads\RelatorioDotNet02\RelatorioDotNet02\RelatorioDotNet\Tests\bin\Debug\net10.0\HubPedidos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HubPedidos.Tests.ImportacaoTests" name="Assincrono_LimiteTotal_Excedido_LancaInvalidDataException_EDevolveBuffer" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="38879b56-b090-a18a-db97-38cb021229bf" executionId="fdfeacca-dfcb-485a-b0b1-8a003c3afce3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e195613b-1408-4e0b-a099-080c928a0cdc" executionId="b893f8da-15ea-4d4a-ab74-abef55335e14" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0902e83b-edf5-7bfe-b8a0-7ba3e86afe11" executionId="b680b3ad-529e-44bc-92b5-aafda0e6ec0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98e404a7-90d0-6e94-fb26-2c14324a3740" executionId="2a247269-510b-4462-8d75-cad05b45082a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e1a7595-e189-a13e-26b6-40cab1d71e46" executionId="de4d3ba1-acc4-4cf4-802e-807d597d2610" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7e41a66-8789-87c3-c1ab-6452dececeda" executionId="e0c60dc8-d982-4368-bc96-aca41259b44b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02e05209-2741-664b-cf4c-601063ade497" executionId="69f82e89-5412-472a-bd57-fcea182da80a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os resultados carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.0+00ab0a9ec4 (64-bit .NET 10.0.13)&#xD;
+[xUnit.net 00:00:00.10]   Discovering: HubPedidos.Tests&#xD;
+[xUnit.net 00:00:00.19]   Discovered:  HubPedidos.Tests&#xD;
+[xUnit.net 00:00:00.22]   Starting:    HubPedidos.Tests&#xD;
+[xUnit.net 00:00:00.30]   Finished:    HubPedidos.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

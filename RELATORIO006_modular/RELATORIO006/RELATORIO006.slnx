@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Modulos/">
+    <Project Path="Hub.Orders/Hub.Orders.csproj" />
+    <Project Path="Hub.Processing/Hub.Processing.csproj" />
+    <Project Path="Hub.Notifications/Hub.Notifications.csproj" />
+  </Folder>
+  <Folder Name="/Infra/">
+    <Project Path="Hub.Infrastructure/Hub.Infrastructure.csproj" />
+  </Folder>
+  <Project Path="RELATORIO006/RELATORIO006.csproj" />
+  <Project Path="Hub.Tests/Hub.Tests.csproj" />
+</Solution>

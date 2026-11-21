@@ -1,0 +1,14 @@
+@Relatorio008_HostAddress = http://localhost:5126
+
+POST {{Relatorio008_HostAddress}}/api/v1/pedidos
+X-Api-Key: chave-local-dev
+Content-Type: application/json
+
+{ "cliente": "Maria", "valor": 50.5 }
+
+###
+
+GET {{Relatorio008_HostAddress}}/api/v2/pedidos/1
+X-Api-Key: chave-local-dev
+
+###

@@ -1,0 +1,27 @@
+@Relatorio005_HostAddress = http://localhost:5249
+
+GET {{Relatorio005_HostAddress}}/health
+Accept: application/json
+
+###
+
+GET {{Relatorio005_HostAddress}}/api/diagnostico/estado
+Accept: application/json
+
+###
+
+POST {{Relatorio005_HostAddress}}/api/mensagens
+Content-Type: application/json
+
+{
+  "canal": "suporte",
+  "conteudo": "pedido de reembolso do cliente",
+  "prioridade": 5
+}
+
+###
+
+GET {{Relatorio005_HostAddress}}/api/mensagens/busca?canal=suporte&termo=pedido&limite=20
+Accept: application/json
+
+###

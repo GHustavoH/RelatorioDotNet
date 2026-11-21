@@ -1,0 +1,34 @@
+root = true
+
+[*]
+indent_style = space
+charset = utf-8
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{csproj,props,json,yml,slnx}]
+indent_size = 2
+
+[*.cs]
+indent_size = 4
+
+# estilo
+csharp_new_line_before_open_brace = all
+csharp_style_var_for_built_in_types = true:suggestion
+dotnet_sort_system_directives_first = true
+
+# severidades aceitas pela equipe (viram erro no build)
+# IDE0051: membro privado nao usado -> codigo morto, quase sempre erro de verdade
+dotnet_diagnostic.IDE0051.severity = error
+# IDE0052: membro privado lido mas nunca usado
+dotnet_diagnostic.IDE0052.severity = error
+# CA1822: metodo que poderia ser static
+dotnet_diagnostic.CA1822.severity = error
+# CA2016: repassar CancellationToken (importante em endpoints async)
+dotnet_diagnostic.CA2016.severity = error
+
+# regras muito chatas para um projeto pequeno, ficam desligadas
+# CA1707: underscores em nomes (usamos Metodo_Cenario_Resultado nos testes)
+dotnet_diagnostic.CA1707.severity = none
+# CA1848: LoggerMessage delegates
+dotnet_diagnostic.CA1848.severity = none

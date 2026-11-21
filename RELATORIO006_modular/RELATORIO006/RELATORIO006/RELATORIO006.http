@@ -1,0 +1,34 @@
+@RELATORIO006_HostAddress = http://localhost:5002
+
+### Criar pedido (processa e notifica via módulos)
+POST {{RELATORIO006_HostAddress}}/api/orders
+Content-Type: application/json
+
+{ "customerName": "Maria", "amount": 150.75, "currency": "BRL" }
+
+### Consultar sem versão => v1 (padrão, com headers Deprecation/Sunset)
+GET {{RELATORIO006_HostAddress}}/api/orders/00000000-0000-0000-0000-000000000000
+Accept: application/json
+
+### Consultar v1 explícita (header)
+GET {{RELATORIO006_HostAddress}}/api/orders/00000000-0000-0000-0000-000000000000
+X-Api-Version: 1
+
+### Consultar v2 (header)
+GET {{RELATORIO006_HostAddress}}/api/orders/00000000-0000-0000-0000-000000000000
+X-Api-Version: 2
+
+### Consultar v2 (query)
+GET {{RELATORIO006_HostAddress}}/api/orders/00000000-0000-0000-0000-000000000000?api-version=2
+
+### Versão não suportada => 400 problem+json
+GET {{RELATORIO006_HostAddress}}/api/orders/00000000-0000-0000-0000-000000000000
+X-Api-Version: 9
+
+### OpenAPI por versão
+GET {{RELATORIO006_HostAddress}}/openapi/v1.json
+
+###
+GET {{RELATORIO006_HostAddress}}/openapi/v2.json
+
+###

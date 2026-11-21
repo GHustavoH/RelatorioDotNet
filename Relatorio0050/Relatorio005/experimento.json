@@ -1,0 +1,28 @@
+{
+  "hipotese": "A rota GET /api/mensagens/busca e limitada por CPU e alocacao no metodo BuscaMensagens.Baseline (ToLowerInvariant repetido por item, LINQ encadeado e ordenacao completa antes do limite). Sob carga, isso eleva p95/p99 da consulta e disputa as threads com o processamento da fila.",
+  "metas": {
+    "consulta": { "p95Ms": 40, "p99Ms": 100 },
+    "criacao": { "p95Ms": 30, "p99Ms": 80 },
+    "vazaoMinimaRelativa": 0.95,
+    "taxaErroMaxima": 0.01
+  },
+  "carga": {
+    "url": "http://localhost:5249",
+    "taxa": 150,
+    "aquecimentoS": 15,
+    "medicaoS": 60,
+    "timeoutMs": 2000,
+    "maxEmVoo": 512,
+    "mixCriacao": 0.3,
+    "semente": 123
+  },
+  "servidor": {
+    "workers": 2,
+    "capacidadeFila": 5000,
+    "capacidadeArmazenamento": 300000,
+    "seedQuantidade": 50000,
+    "seedAleatoria": 42,
+    "latenciaPersistenciaMs": 5,
+    "iteracoesHash": 200
+  }
+}

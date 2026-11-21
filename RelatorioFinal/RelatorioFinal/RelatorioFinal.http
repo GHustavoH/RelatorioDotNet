@@ -1,0 +1,57 @@
+@host = http://localhost:5173
+
+### login como cliente
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{ "usuario": "ana", "senha": "123" }
+
+### login como admin
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{ "usuario": "admin", "senha": "admin" }
+
+### criar pedido (troque pelo token recebido)
+POST {{host}}/api/pedidos
+Content-Type: application/json
+Authorization: Bearer COLE_O_TOKEN
+
+{
+  "cliente": "ana",
+  "regiao": "BRASIL",
+  "prioridade": "Normal",
+  "itens": [ { "produto": "Caneta", "quantidade": 3, "preco": 4.5 } ]
+}
+
+### listar pedidos
+GET {{host}}/api/pedidos?pagina=1&tamanho=10
+Authorization: Bearer COLE_O_TOKEN
+
+### consultar pedido na versao 1 (padrao)
+GET {{host}}/api/v1/pedidos/COLE_O_ID
+Authorization: Bearer COLE_O_TOKEN
+
+### consultar pedido na versao 2
+GET {{host}}/api/v2/pedidos/COLE_O_ID
+Authorization: Bearer COLE_O_TOKEN
+
+### consulta condicional com ETag (deve devolver 304)
+GET {{host}}/api/v1/pedidos/COLE_O_ID
+Authorization: Bearer COLE_O_TOKEN
+If-None-Match: "COLE_O_ETAG"
+
+### estatisticas publicas com cache
+GET {{host}}/api/estatisticas
+
+### importar lote (admin)
+POST {{host}}/api/pedidos/importar
+Content-Type: text/plain
+Authorization: Bearer COLE_O_TOKEN_ADMIN
+
+ana;BRASIL;Normal;Caneta;3;4.50
+bruno;EXTERIOR;Alta;Caderno;10;12.90
+
+### metricas da fila (admin)
+GET {{host}}/api/fila/metricas
+Authorization: Bearer COLE_O_TOKEN_ADMIN

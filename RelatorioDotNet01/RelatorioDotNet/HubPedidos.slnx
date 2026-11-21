@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Domain/HubPedidos.Domain.csproj" />
+  <Project Path="Application/HubPedidos.Application.csproj" />
+  <Project Path="Api/HubPedidos.Api.csproj" />
+  <Project Path="Tests/HubPedidos.Tests.csproj" />
+</Solution>

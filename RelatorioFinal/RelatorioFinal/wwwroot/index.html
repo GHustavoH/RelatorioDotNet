@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Hub de Pedidos</title>
+</head>
+<body>
+  <h1>Hub de Pedidos</h1>
+  <p>Conexao <b id="estado">desconectado</b></p>
+
+  <input id="usuario" placeholder="usuario" value="ana">
+  <input id="senha" type="password" placeholder="senha" value="123">
+  <button id="entrar">Entrar</button>
+  <button id="criar" disabled>Criar pedido de teste</button>
+
+  <pre id="log"></pre>
+
+  <script src="https://cdn.jsdelivr.net/npm/@microsoft/signalr@8.0.7/dist/browser/signalr.min.js"></script>
+  <script>
+    let token = null;
+    let conexao = null;
+    let pedidoAtual = null;
+
+    const estado = document.getElementById("estado");
+    const log = document.getElementById("log");
+    const botaoCriar = document.getElementById("criar");
+
+    function escrever(texto) {
+      log.textContent = texto + "\n" + log.textContent;
+    }
+
+    async function consultar(id) {
+      const resposta = await fetch("/api/pedidos/" + id, { headers: { Authorization: "Bearer " + token } });
+      escrever("estado atual " + await resposta.text());
+    }
+
+    async function acompanhar(id) {
+      pedidoAtual = id;
+      await conexao.invoke("EntrarNoPedido", id);
+      await consultar(id);
+    }
+
+    async function conectar() {
+      conexao = new signalR.HubConnectionBuilder()
+        .withUrl("/hubs/pedidos", { accessTokenFactory: () => token })
+        .withAutomaticReconnect()
+        .build();
+
+      conexao.on("PedidoAtualizado", evento => escrever("evento " + JSON.stringify(evento)));
+
+      conexao.onreconnecting(() => {
+        estado.textContent = "reconectando";
+        botaoCriar.disabled = true;
+      });
+
+      // depois de reconectar entra de novo no grupo e consulta o estado por HTTP para cobrir eventos perdidos
+      conexao.onreconnected(async () => {
+        estado.textContent = "conectado";
+        botaoCriar.disabled = false;
+        if (pedidoAtual) {
+          await acompanhar(pedidoAtual);
+        }
+      });
+
+      conexao.onclose(() => {
+        estado.textContent = "desconectado";
+        botaoCriar.disabled = true;
+      });
+
+      await conexao.start();
+      estado.textContent = "conectado";
+      botaoCriar.disabled = false;
+    }
+
+    document.getElementById("entrar").onclick = async () => {
+      const resposta = await fetch("/api/auth/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          usuario: document.getElementById("usuario").value,
+          senha: document.getElementById("senha").value
+        })
+      });
+
+      if (!resposta.ok) {
+        escrever("login invalido");
+        return;
+      }
+
+      token = (await resposta.json()).token;
+      await conectar();
+    };
+
+    botaoCriar.onclick = async () => {
+      const resposta = await fetch("/api/pedidos", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: "Bearer " + token },
+        body: JSON.stringify({
+          cliente: "",
+          regiao: "BRASIL",
+          prioridade: "Normal",
+          itens: [{ produto: "Caneta", quantidade: 3, preco: 4.5 }]
+        })
+      });
+
+      const pedido = await resposta.json();
+      if (!resposta.ok) {
+        escrever("erro " + JSON.stringify(pedido));
+        return;
+      }
+
+      escrever("pedido criado " + pedido.id);
+      await acompanhar(pedido.id);
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+@relatorio007_HostAddress = http://localhost:5133
+
+### GET normal (200 + header ETag)
+GET {{relatorio007_HostAddress}}/api/pedidos/1
+X-Usuario: ana
+
+### GET com If-None-Match (troque pelo ETag recebido acima -> 304 sem corpo)
+GET {{relatorio007_HostAddress}}/api/pedidos/1
+X-Usuario: ana
+If-None-Match: "COLE_O_ETAG_AQUI"
+
+### Outro usuario nao pode ver o pedido (403)
+GET {{relatorio007_HostAddress}}/api/pedidos/1
+X-Usuario: bruno
+
+### Leitura publica (com output cache)
+GET {{relatorio007_HostAddress}}/api/pedidos/1/publico
+
+### Admin muda o status (invalida cache e dispara PedidoAtualizado no grupo)
+POST {{relatorio007_HostAddress}}/api/pedidos/1/status
+X-Usuario: admin
+X-Perfil: admin
+Content-Type: application/json
+
+{ "status": "Pago" }
+
+### Admin revoga o acesso de ana ao pedido 1
+POST {{relatorio007_HostAddress}}/api/pedidos/1/revogar/ana
+X-Usuario: admin
+X-Perfil: admin

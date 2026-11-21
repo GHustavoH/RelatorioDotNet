@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{565868D7-7D2D-B320-2F7D-21CD26832BC5}|relatorio007.Tests\\relatorio007.Tests.csproj|c:\\users\\gustavo\\downloads\\relatorio007_v4\\relatorio007\\relatorio007.tests\\pedidoshubtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565868D7-7D2D-B320-2F7D-21CD26832BC5}|relatorio007.Tests\\relatorio007.Tests.csproj|solutionrelative:relatorio007.tests\\pedidoshubtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565868D7-7D2D-B320-2F7D-21CD26832BC5}|relatorio007.Tests\\relatorio007.Tests.csproj|c:\\users\\gustavo\\downloads\\relatorio007_v4\\relatorio007\\relatorio007.tests\\pedidoshttptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565868D7-7D2D-B320-2F7D-21CD26832BC5}|relatorio007.Tests\\relatorio007.Tests.csproj|solutionrelative:relatorio007.tests\\pedidoshttptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565868D7-7D2D-B320-2F7D-21CD26832BC5}|relatorio007.Tests\\relatorio007.Tests.csproj|c:\\users\\gustavo\\downloads\\relatorio007_v4\\relatorio007\\relatorio007.tests\\etagtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565868D7-7D2D-B320-2F7D-21CD26832BC5}|relatorio007.Tests\\relatorio007.Tests.csproj|solutionrelative:relatorio007.tests\\etagtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|c:\\users\\gustavo\\downloads\\relatorio007_v4\\relatorio007\\relatorio007\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|solutionrelative:relatorio007\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|c:\\users\\gustavo\\downloads\\relatorio007_v4\\relatorio007\\relatorio007\\services\\pedidostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|solutionrelative:relatorio007\\services\\pedidostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|c:\\users\\gustavo\\downloads\\relatorio007_v4\\relatorio007\\relatorio007\\services\\etag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|solutionrelative:relatorio007\\services\\etag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|c:\\users\\gustavo\\downloads\\relatorio007_v4\\relatorio007\\relatorio007\\services\\assinaturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|solutionrelative:relatorio007\\services\\assinaturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|c:\\users\\gustavo\\downloads\\relatorio007_v4\\relatorio007\\relatorio007\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|solutionrelative:relatorio007\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|c:\\users\\gustavo\\downloads\\relatorio007_v4\\relatorio007\\relatorio007\\hubs\\pedidoshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|solutionrelative:relatorio007\\hubs\\pedidoshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|c:\\users\\gustavo\\downloads\\relatorio007_v4\\relatorio007\\relatorio007\\hubs\\ipedidoscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|solutionrelative:relatorio007\\hubs\\ipedidoscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|c:\\users\\gustavo\\downloads\\relatorio007_v4\\relatorio007\\relatorio007\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|solutionrelative:relatorio007\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|c:\\users\\gustavo\\downloads\\relatorio007_v4\\relatorio007\\relatorio007\\client\\clientepedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|solutionrelative:relatorio007\\client\\clientepedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|c:\\users\\gustavo\\downloads\\relatorio007_v4\\relatorio007\\relatorio007\\auth\\headerauthhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B1C700-A3AC-F825-EC85-36A3FF164661}|relatorio007\\relatorio007.csproj|solutionrelative:relatorio007\\auth\\headerauthhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PedidosHubTests.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007.Tests\\PedidosHubTests.cs",
+              "RelativeDocumentMoniker": "relatorio007.Tests\\PedidosHubTests.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007.Tests\\PedidosHubTests.cs",
+              "RelativeToolTip": "relatorio007.Tests\\PedidosHubTests.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T00:49:44.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PedidosHttpTests.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007.Tests\\PedidosHttpTests.cs",
+              "RelativeDocumentMoniker": "relatorio007.Tests\\PedidosHttpTests.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007.Tests\\PedidosHttpTests.cs",
+              "RelativeToolTip": "relatorio007.Tests\\PedidosHttpTests.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T00:49:41.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EtagTests.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007.Tests\\EtagTests.cs",
+              "RelativeDocumentMoniker": "relatorio007.Tests\\EtagTests.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007.Tests\\EtagTests.cs",
+              "RelativeToolTip": "relatorio007.Tests\\EtagTests.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T00:49:39.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PedidoStore.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Services\\PedidoStore.cs",
+              "RelativeDocumentMoniker": "relatorio007\\Services\\PedidoStore.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Services\\PedidoStore.cs",
+              "RelativeToolTip": "relatorio007\\Services\\PedidoStore.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T00:49:33.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Etag.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Services\\Etag.cs",
+              "RelativeDocumentMoniker": "relatorio007\\Services\\Etag.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Services\\Etag.cs",
+              "RelativeToolTip": "relatorio007\\Services\\Etag.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T00:49:30.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Assinaturas.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Services\\Assinaturas.cs",
+              "RelativeDocumentMoniker": "relatorio007\\Services\\Assinaturas.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Services\\Assinaturas.cs",
+              "RelativeToolTip": "relatorio007\\Services\\Assinaturas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T00:49:29.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Models\\Pedido.cs",
+              "RelativeDocumentMoniker": "relatorio007\\Models\\Pedido.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Models\\Pedido.cs",
+              "RelativeToolTip": "relatorio007\\Models\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T00:49:27.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PedidosHub.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Hubs\\PedidosHub.cs",
+              "RelativeDocumentMoniker": "relatorio007\\Hubs\\PedidosHub.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Hubs\\PedidosHub.cs",
+              "RelativeToolTip": "relatorio007\\Hubs\\PedidosHub.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T00:49:24.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IPedidosCliente.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Hubs\\IPedidosCliente.cs",
+              "RelativeDocumentMoniker": "relatorio007\\Hubs\\IPedidosCliente.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Hubs\\IPedidosCliente.cs",
+              "RelativeToolTip": "relatorio007\\Hubs\\IPedidosCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T00:49:23.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "relatorio007\\Controllers\\PedidosController.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "relatorio007\\Controllers\\PedidosController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T00:49:19.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientePedidos.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Client\\ClientePedidos.cs",
+              "RelativeDocumentMoniker": "relatorio007\\Client\\ClientePedidos.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Client\\ClientePedidos.cs",
+              "RelativeToolTip": "relatorio007\\Client\\ClientePedidos.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T00:49:14.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HeaderAuthHandler.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Auth\\HeaderAuthHandler.cs",
+              "RelativeDocumentMoniker": "relatorio007\\Auth\\HeaderAuthHandler.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Auth\\HeaderAuthHandler.cs",
+              "RelativeToolTip": "relatorio007\\Auth\\HeaderAuthHandler.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T00:49:10.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Program.cs",
+              "RelativeDocumentMoniker": "relatorio007\\Program.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\relatorio007_v4\\relatorio007\\relatorio007\\Program.cs",
+              "RelativeToolTip": "relatorio007\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T00:29:31.199Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

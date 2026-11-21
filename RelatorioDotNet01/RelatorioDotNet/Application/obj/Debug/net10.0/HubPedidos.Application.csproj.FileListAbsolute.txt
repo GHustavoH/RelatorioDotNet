@@ -1,0 +1,15 @@
+C:\Users\gustavo\Downloads\RelatorioDotNet01\RelatorioDotNet\Application\bin\Debug\net10.0\HubPedidos.Application.deps.json
+C:\Users\gustavo\Downloads\RelatorioDotNet01\RelatorioDotNet\Application\bin\Debug\net10.0\HubPedidos.Application.dll
+C:\Users\gustavo\Downloads\RelatorioDotNet01\RelatorioDotNet\Application\bin\Debug\net10.0\HubPedidos.Application.pdb
+C:\Users\gustavo\Downloads\RelatorioDotNet01\RelatorioDotNet\Application\bin\Debug\net10.0\HubPedidos.Domain.dll
+C:\Users\gustavo\Downloads\RelatorioDotNet01\RelatorioDotNet\Application\bin\Debug\net10.0\HubPedidos.Domain.pdb
+C:\Users\gustavo\Downloads\RelatorioDotNet01\RelatorioDotNet\Application\obj\Debug\net10.0\HubPedidos.Application.csproj.AssemblyReference.cache
+C:\Users\gustavo\Downloads\RelatorioDotNet01\RelatorioDotNet\Application\obj\Debug\net10.0\HubPedidos.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gustavo\Downloads\RelatorioDotNet01\RelatorioDotNet\Application\obj\Debug\net10.0\HubPedidos.Application.AssemblyInfoInputs.cache
+C:\Users\gustavo\Downloads\RelatorioDotNet01\RelatorioDotNet\Application\obj\Debug\net10.0\HubPedidos.Application.AssemblyInfo.cs
+C:\Users\gustavo\Downloads\RelatorioDotNet01\RelatorioDotNet\Application\obj\Debug\net10.0\HubPedidos.Application.csproj.CoreCompileInputs.cache
+C:\Users\gustavo\Downloads\RelatorioDotNet01\RelatorioDotNet\Application\obj\Debug\net10.0\HubPedid.4A1E2B06.Up2Date
+C:\Users\gustavo\Downloads\RelatorioDotNet01\RelatorioDotNet\Application\obj\Debug\net10.0\HubPedidos.Application.dll
+C:\Users\gustavo\Downloads\RelatorioDotNet01\RelatorioDotNet\Application\obj\Debug\net10.0\refint\HubPedidos.Application.dll
+C:\Users\gustavo\Downloads\RelatorioDotNet01\RelatorioDotNet\Application\obj\Debug\net10.0\HubPedidos.Application.pdb
+C:\Users\gustavo\Downloads\RelatorioDotNet01\RelatorioDotNet\Application\obj\Debug\net10.0\ref\HubPedidos.Application.dll

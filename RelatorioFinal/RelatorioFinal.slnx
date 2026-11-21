@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="RelatorioFinal/RelatorioFinal.csproj" />
+  <Project Path="RelatorioFinal.Tests/RelatorioFinal.Tests.csproj" />
+  <Project Path="RelatorioFinal.Benchmarks/RelatorioFinal.Benchmarks.csproj" />
+</Solution>

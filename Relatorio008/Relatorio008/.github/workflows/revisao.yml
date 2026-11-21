@@ -1,0 +1,43 @@
+name: revisao
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  revisao:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Restore
+        run: dotnet restore
+
+      - name: Build (analisadores viram erro conforme .editorconfig)
+        run: dotnet build --no-restore --configuration Release
+
+      - name: Verificar formatacao
+        run: dotnet format --verify-no-changes --no-restore
+
+      - name: Testes (3 execucoes, ordem aleatoria)
+        run: |
+          for i in 1 2 3; do
+            export SEMENTE_TESTES=$RANDOM
+            echo "Execucao $i, semente $SEMENTE_TESTES"
+            dotnet test --no-build --configuration Release \
+              --logger "trx;LogFileName=resultados$i.trx" \
+              --logger "console;verbosity=normal" \
+              --results-directory TestResults
+          done
+
+      - name: Publicar resultados
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultados-testes
+          path: TestResults/

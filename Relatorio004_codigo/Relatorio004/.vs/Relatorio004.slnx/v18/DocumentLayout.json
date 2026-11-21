@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gustavo\\Downloads\\Relatorio004_codigo\\Relatorio004\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{333EAF2F-61ED-B2DA-D081-D4A541BE4CB5}|Relatorio004\\Relatorio004.csproj|c:\\users\\gustavo\\downloads\\relatorio004_codigo\\relatorio004\\relatorio004\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333EAF2F-61ED-B2DA-D081-D4A541BE4CB5}|Relatorio004\\Relatorio004.csproj|solutionrelative:relatorio004\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333EAF2F-61ED-B2DA-D081-D4A541BE4CB5}|Relatorio004\\Relatorio004.csproj|c:\\users\\gustavo\\downloads\\relatorio004_codigo\\relatorio004\\relatorio004\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333EAF2F-61ED-B2DA-D081-D4A541BE4CB5}|Relatorio004\\Relatorio004.csproj|solutionrelative:relatorio004\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333EAF2F-61ED-B2DA-D081-D4A541BE4CB5}|Relatorio004\\Relatorio004.csproj|c:\\users\\gustavo\\downloads\\relatorio004_codigo\\relatorio004\\relatorio004\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{333EAF2F-61ED-B2DA-D081-D4A541BE4CB5}|Relatorio004\\Relatorio004.csproj|solutionrelative:relatorio004\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333EAF2F-61ED-B2DA-D081-D4A541BE4CB5}|Relatorio004\\Relatorio004.csproj|c:\\users\\gustavo\\downloads\\relatorio004_codigo\\relatorio004\\relatorio004\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{333EAF2F-61ED-B2DA-D081-D4A541BE4CB5}|Relatorio004\\Relatorio004.csproj|solutionrelative:relatorio004\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333EAF2F-61ED-B2DA-D081-D4A541BE4CB5}|Relatorio004\\Relatorio004.csproj|c:\\users\\gustavo\\downloads\\relatorio004_codigo\\relatorio004\\relatorio004\\models\\pedidorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333EAF2F-61ED-B2DA-D081-D4A541BE4CB5}|Relatorio004\\Relatorio004.csproj|solutionrelative:relatorio004\\models\\pedidorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333EAF2F-61ED-B2DA-D081-D4A541BE4CB5}|Relatorio004\\Relatorio004.csproj|c:\\users\\gustavo\\downloads\\relatorio004_codigo\\relatorio004\\relatorio004\\models\\processarpedidojob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333EAF2F-61ED-B2DA-D081-D4A541BE4CB5}|Relatorio004\\Relatorio004.csproj|solutionrelative:relatorio004\\models\\processarpedidojob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\Relatorio004_codigo\\Relatorio004\\Relatorio004\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Relatorio004\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\Relatorio004_codigo\\Relatorio004\\Relatorio004\\appsettings.Development.json",
+              "RelativeToolTip": "Relatorio004\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-19T23:15:32.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\Relatorio004_codigo\\Relatorio004\\Relatorio004\\appsettings.json",
+              "RelativeDocumentMoniker": "Relatorio004\\appsettings.json",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\Relatorio004_codigo\\Relatorio004\\Relatorio004\\appsettings.json",
+              "RelativeToolTip": "Relatorio004\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-19T23:15:28.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\Relatorio004_codigo\\Relatorio004\\Relatorio004\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "Relatorio004\\Controllers\\PedidosController.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\Relatorio004_codigo\\Relatorio004\\Relatorio004\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "Relatorio004\\Controllers\\PedidosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T23:06:40.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProcessarPedidoJob.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\Relatorio004_codigo\\Relatorio004\\Relatorio004\\Models\\ProcessarPedidoJob.cs",
+              "RelativeDocumentMoniker": "Relatorio004\\Models\\ProcessarPedidoJob.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\Relatorio004_codigo\\Relatorio004\\Relatorio004\\Models\\ProcessarPedidoJob.cs",
+              "RelativeToolTip": "Relatorio004\\Models\\ProcessarPedidoJob.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T23:06:35.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PedidoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\Relatorio004_codigo\\Relatorio004\\Relatorio004\\Models\\PedidoRequest.cs",
+              "RelativeDocumentMoniker": "Relatorio004\\Models\\PedidoRequest.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\Relatorio004_codigo\\Relatorio004\\Relatorio004\\Models\\PedidoRequest.cs",
+              "RelativeToolTip": "Relatorio004\\Models\\PedidoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T23:06:32.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo\\Downloads\\Relatorio004_codigo\\Relatorio004\\Relatorio004\\Program.cs",
+              "RelativeDocumentMoniker": "Relatorio004\\Program.cs",
+              "ToolTip": "C:\\Users\\gustavo\\Downloads\\Relatorio004_codigo\\Relatorio004\\Relatorio004\\Program.cs",
+              "RelativeToolTip": "Relatorio004\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T23:06:26.597Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

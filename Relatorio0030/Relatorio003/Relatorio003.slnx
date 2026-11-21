@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Relatorio003/Relatorio003.csproj" />
+  <Project Path="Relatorio003.Tests/Relatorio003.Tests.csproj" />
+  <Project Path="Relatorio003.Medicao/Relatorio003.Medicao.csproj" />
+</Solution>

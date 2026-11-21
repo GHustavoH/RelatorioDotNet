@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZhovW/XImI4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gustavo\\Documents\\Agrupamento\\relatorio007_v4\\relatorio007\\relatorio007\\relatorio007.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gustavo\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\10.0.13\\microsoft.aspnetcore.http.connections.client.10.0.13.nupkg.sha512",
+    "C:\\Users\\gustavo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.13\\microsoft.aspnetcore.openapi.10.0.13.nupkg.sha512",
+    "C:\\Users\\gustavo\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\10.0.13\\microsoft.aspnetcore.signalr.client.10.0.13.nupkg.sha512",
+    "C:\\Users\\gustavo\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\10.0.13\\microsoft.aspnetcore.signalr.client.core.10.0.13.nupkg.sha512",
+    "C:\\Users\\gustavo\\.nuget\\packages\\microsoft.openapi\\2.12.2\\microsoft.openapi.2.12.2.nupkg.sha512"
+  ],
+  "logs": []
+}

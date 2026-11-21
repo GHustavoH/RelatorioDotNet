@@ -1,0 +1,46 @@
+@HubPedidos_HostAddress = http://localhost:5288
+
+### Catálogo de processadores
+GET {{HubPedidos_HostAddress}}/api/processadores
+Accept: application/json
+
+### Pedido Premium (valor >= 5000)
+POST {{HubPedidos_HostAddress}}/api/pedidos
+Content-Type: application/json
+
+{
+  "regiao": "Sudeste",
+  "prioridade": "Normal",
+  "itens": [ { "sku": "NOTE-01", "quantidade": 1, "precoUnitario": 5200.00 } ]
+}
+
+### Pedido Expresso (prioridade Urgente, valor < 5000)
+POST {{HubPedidos_HostAddress}}/api/pedidos
+Content-Type: application/json
+
+{
+  "regiao": "Sul",
+  "prioridade": "Urgente",
+  "itens": [ { "sku": "MOUSE-02", "quantidade": 2, "precoUnitario": 80.50 } ]
+}
+
+### Pedido Internacional
+POST {{HubPedidos_HostAddress}}/api/pedidos
+Content-Type: application/json
+
+{
+  "regiao": "Exterior",
+  "prioridade": "Baixa",
+  "itens": [ { "sku": "CABO-03", "quantidade": 10, "precoUnitario": 15.00 } ]
+}
+
+### Pedido inválido (400 com todos os erros)
+POST {{HubPedidos_HostAddress}}/api/pedidos
+Content-Type: application/json
+
+{
+  "id": "nao-e-guid",
+  "regiao": "Marte",
+  "prioridade": "2",
+  "itens": [ { "sku": "", "quantidade": 0, "precoUnitario": -1 } ]
+}
